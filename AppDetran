@@ -1,0 +1,14 @@
+public class AppDetran {
+
+	public static void main(String[] args) {
+		Carro carro = new Carro();
+		carro.modelo = "Chavette";
+		Proprietario dono = new Proprietario();
+		dono.meuCarro = carro;
+		dono.nome = "Pedro";
+		System.out.println("Carro: " + carro.modelo + ",Proprietario: " + dono.nome );
+		
+
+	}
+
+}
